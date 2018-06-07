@@ -26,5 +26,15 @@ namespace CalculatorApp.Test
             Assert.AreEqual(6, result);
 
         }
+
+        [TestMethod]
+        public void TestMethod3()
+        {
+
+            var result = Program.Divide(5, 2);
+
+            Assert.AreEqual(2.5, result);
+
+        }
     }
 }

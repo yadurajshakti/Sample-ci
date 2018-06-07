@@ -12,6 +12,7 @@ namespace CalculatorApp
         {
             Console.WriteLine(Add(1, 2));
             Console.WriteLine(Multi(3, 2));
+            Console.WriteLine(Divide(5, 2));
 
         }
 
@@ -23,6 +24,11 @@ namespace CalculatorApp
         public static int Multi(int a, int b)
         {
             return a * b;
+        }
+
+        public static double Divide(int a, int b)
+        {
+            return (a / (double)b);
         }
     }
 }
